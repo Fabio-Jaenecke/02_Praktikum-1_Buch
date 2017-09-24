@@ -5,7 +5,7 @@
  * @author Marc Rennhard
  */
 public class Buch {
-	public String titel;
+	private String titel;
 	private String isbn;
 	// Der aktuelle Bestand
 	private int bestand;
@@ -24,7 +24,7 @@ public class Buch {
 	 * Liefert den aktuellen Bestand.
 	 * @return Der Bestand.
 	 */
-	public int bestand() {
+	public int gibbestand() {
 		return bestand;
 	}
 	
